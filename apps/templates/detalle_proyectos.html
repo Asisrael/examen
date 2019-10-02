@@ -1,0 +1,5 @@
+<h1>{{ Proyecto.nombre }}</h1>
+<p>{{ Proyecto.descripcion }}</p>
+<h4>{{ Proyecto.precio }}</h4>
+<img src="{{ porta.imagen.url }}" style="max-height: 100px; max-width: 100px;"><br><br>
+<a href="{% url 'porta:lista_proyectos' %}">Regresar</a>
